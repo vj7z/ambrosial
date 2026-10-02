@@ -7,7 +7,7 @@ module.exports = {
         console.log(`[BOT] Logged in as ${client.user.tag}!`);
         client.user.setPresence({
             activities: [{
-                name: 'blossom - ella stink so bad',
+                name: '/ambrosial',
                 type: ActivityType.Streaming,
                 url: 'https://www.twitch.tv/lyonwgflive'
             }],
