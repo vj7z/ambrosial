@@ -1,0 +1,14 @@
+{
+  "setups": {
+    "1549181391579783289": {
+      "categoryId": "1555592611119767643",
+      "joinChannelId": "1555592713779544206",
+      "textChannelId": "1555592833484849162",
+      "logChannelId": "1555592978695979078",
+      "ticketCategoryId": "",
+      "ticketPanelChannelId": "",
+      "ticketLogChannelId": ""
+    }
+  },
+  "trusts": {}
+}
