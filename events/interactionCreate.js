@@ -14,7 +14,7 @@ const { QueueRepeatMode } = require('discord-player');
 const { db, saveDB, ongoingSetups, logToChannel } = require('../db');
 const { getInterfaceMessage } = require('../ui');
 const { CommentModal, ConfessionButtons, ConfessionModal, StartView } = require('../confessions');
-const ALLOWED_USER_IDS = ['1364624416532725861', '243748917311700992'];
+const ALLOWED_USER_IDS = ['243748917311700992'];
 
 module.exports = {
     name: 'interactionCreate',
@@ -924,7 +924,7 @@ module.exports = {
                 return interaction.editReply("Ticket category not found.");
             }
 
-            const staffRoleId = '1508148694242033904';
+            const staffRoleId = '1549181636959010876';
             const ticketName = `ticket-${interaction.user.username}`;
 
             try {
